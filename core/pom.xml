@@ -191,6 +191,7 @@
                                     <artifact>com.google.protobuf:protobuf-java:jar:</artifact>
                                     <excludes>
                                         <exclude>google/protobuf/**</exclude>
+                                        <exclude>META-INF/maven/com.google.protobuf/**</exclude>
                                     </excludes>
                                 </filter>
                             </filters>
